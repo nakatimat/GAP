@@ -10,23 +10,17 @@ import styles as sty
 db.init_db()
 db.seed_db()
 
-# Theme Choice selection in Sidebar
+# Sidebar Branding
 st.sidebar.markdown(
     "<div class='sidebar-brand-card'>"
     "🏢 <span class='sidebar-brand-title'>GAP - Gestão de Ativos</span><br>"
+    "<span class='sidebar-brand-subtitle'>Sistema de Inventário Corporativo</span>"
     "</div>", 
     unsafe_allow_html=True
 )
 
-st.sidebar.markdown("### 🎨 Configurações")
-theme_choice = st.sidebar.selectbox(
-    "Tema do Painel:", 
-    ["Escuro 🌙", "Claro ☀️"],
-    key="app_theme_mode"
-)
-
-# Apply dynamic custom CSS styling based on theme
-st.markdown(sty.get_custom_css(theme_choice), unsafe_allow_html=True)
+# Apply premium custom CSS styling (fixed Slate Light/Gray Theme)
+st.markdown(sty.get_custom_css(), unsafe_allow_html=True)
 
 # Navigation Menu
 st.sidebar.markdown("### 🗺️ Navegação")
@@ -269,13 +263,15 @@ elif menu == "👥 Colaboradores":
             if assigned_assets:
                 for asset in assigned_assets:
                     with st.container():
-                        st.markdown(
-                            f"<div class='info-card' style='padding: 0.9rem; margin-bottom: 0.6rem;'>"
-                            f"<strong>{asset['item_type']} (Cód. {asset['code']})</strong> - {asset['description'] or 'Sem descrição'}"
-                            f"</div>", 
-                            unsafe_allow_html=True
-                        )
-                        col_rel1, col_rel2 = st.columns([5, 1.5])
+                        col_rel1, col_rel2 = st.columns([4, 1.2], vertical_alignment="center")
+                        with col_rel1:
+                            st.markdown(
+                                f"<div class='info-card' style='padding: 0.8rem 1rem; margin-bottom: 0.4rem;'>"
+                                f"<strong>{asset['item_type']} (Cód. {asset['code']})</strong><br>"
+                                f"<span style='font-size: 0.85rem; color: var(--subtext-color);'>{asset['description'] or 'Sem descrição'}</span>"
+                                f"</div>", 
+                                unsafe_allow_html=True
+                            )
                         with col_rel2:
                             if st.button("🔗 Liberar", key=f"rel_{asset['id']}", use_container_width=True):
                                 success, msg = db.release_asset(asset["id"])

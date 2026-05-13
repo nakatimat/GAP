@@ -1,54 +1,31 @@
 import streamlit as st
 
-def get_custom_css(theme_mode="Escuro 🌙"):
+def get_custom_css():
     """
-    Returns custom CSS code depending on the selected theme mode.
-    Supports premium Dark (Escuro) and Light (Claro) glassmorphism themes.
+    Returns premium custom CSS code.
+    Fixed in a highly professional Slate Light/Gray theme to avoid white blinding glare.
     """
-    if theme_mode == "Claro ☀️":
-        # Premium Slate Light Theme
-        bg_color = "#F8FAFC"
-        sidebar_bg = "#FFFFFF"
-        text_color = "#0F172A"
-        subtext_color = "#475569"
-        card_bg = "rgba(255, 255, 255, 0.85)"
-        card_border = "rgba(226, 232, 240, 1)"
-        accent_blue = "#2563EB"
-        accent_blue_hover = "#1D4ED8"
-        accent_cyan = "#0D9488"
-        metric_bg = "linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)"
-        metric_border = "rgba(191, 219, 254, 0.8)"
-        glow_shadow = "rgba(148, 163, 184, 0.1)"
-        header_gradient = "linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%)"
-        
-        # Table (st.data_editor) colors
-        gdg_bg_cell = "#FFFFFF"
-        gdg_bg_header = "#F1F5F9"
-        gdg_text_dark = "#0F172A"
-        gdg_text_medium = "#475569"
-        gdg_border_color = "#E2E8F0"
-    else:
-        # Premium Deep Charcoal Glassmorphism Theme (Dark)
-        bg_color = "#0B0F19"
-        sidebar_bg = "#111827"
-        text_color = "#F8FAFC"
-        subtext_color = "#94A3B8"
-        card_bg = "rgba(17, 24, 39, 0.7)"
-        card_border = "rgba(255, 255, 255, 0.08)"
-        accent_blue = "#3B82F6"
-        accent_blue_hover = "#60A5FA"
-        accent_cyan = "#06B6D4"
-        metric_bg = "linear-gradient(135deg, rgba(30, 41, 59, 0.7) 0%, rgba(17, 24, 39, 0.7) 100%)"
-        metric_border = "rgba(59, 130, 246, 0.2)"
-        glow_shadow = "rgba(0, 0, 0, 0.3)"
-        header_gradient = "linear-gradient(135deg, #60A5FA 0%, #06B6D4 100%)"
-        
-        # Table (st.data_editor) colors
-        gdg_bg_cell = "#111827"
-        gdg_bg_header = "#1F2937"
-        gdg_text_dark = "#F8FAFC"
-        gdg_text_medium = "#94A3B8"
-        gdg_border_color = "rgba(255, 255, 255, 0.08)"
+    # Premium Slate Light / Soft Gray Theme
+    bg_color = "#F1F5F9"
+    sidebar_bg = "#FFFFFF"
+    text_color = "#1E293B"
+    subtext_color = "#64748B"
+    card_bg = "#FFFFFF"
+    card_border = "#E2E8F0"
+    accent_blue = "#2563EB"
+    accent_blue_hover = "#1D4ED8"
+    accent_cyan = "#0D9488"
+    metric_bg = "#FFFFFF"
+    metric_border = "#E2E8F0"
+    glow_shadow = "rgba(100, 116, 139, 0.08)"
+    header_gradient = "linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%)"
+    
+    # Table (st.data_editor) colors
+    gdg_bg_cell = "#FFFFFF"
+    gdg_bg_header = "#F8FAFC"
+    gdg_text_dark = "#1E293B"
+    gdg_text_medium = "#64748B"
+    gdg_border_color = "#E2E8F0"
 
     return f"""
     <style>
@@ -60,6 +37,9 @@ def get_custom_css(theme_mode="Escuro 🌙"):
         --background-color: {bg_color};
         --secondary-background-color: {sidebar_bg};
         --text-color: {text_color};
+        --subtext-color: {subtext_color};
+        --card-bg: {card_bg};
+        --card-border: {card_border};
     }}
     
     /* Header Bar Background Match */
@@ -84,28 +64,15 @@ def get_custom_css(theme_mode="Escuro 🌙"):
         color: {text_color} !important;
     }}
     
-    /* Sidebar Styles and Text Readability */
+    /* Sidebar Styles */
     [data-testid="stSidebar"] {{
         background-color: {sidebar_bg} !important;
-        border-right: 1px solid {card_border if theme_mode == "Claro ☀️" else "rgba(255,255,255,0.05)"} !important;
-    }}
-    [data-testid="stSidebar"] *, [data-testid="stSidebar"] label, [data-testid="stSidebar"] span, [data-testid="stSidebar"] p {{
-        color: {text_color} !important;
+        border-right: 1px solid {card_border} !important;
     }}
     
-    /* Radio option labels readability */
-    div[data-testid="stRadio"] label p, div[data-testid="stRadio"] p {{
-        color: {text_color} !important;
-    }}
-    
-    /* Typography */
-    h1, h2, h3, h4, h5, h6, .stMarkdown p {{
+    /* Typography Overrides (Font only) */
+    h1, h2, h3, h4, h5, h6, p, span, label {{
         font-family: 'Outfit', sans-serif !important;
-        color: {text_color} !important;
-    }}
-    
-    .stMarkdown sub, .stMarkdown small {{
-        color: {subtext_color} !important;
     }}
     
     /* Custom Header Design */
