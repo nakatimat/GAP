@@ -1,0 +1,469 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "code": "0101",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 2,
+      "code": "0102",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 3,
+      "code": "0103",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19,5\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo FLATRON 20M37AA-B",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 4,
+      "code": "0104",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse QWERTY, marca SATE, Modelo AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 5,
+      "code": "0105",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 6,
+      "code": "0106",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 7,
+      "code": "0107",
+      "item_type": "Monitor",
+      "description": "LG FLATRON 20M37AA-B",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 8,
+      "code": "0108",
+      "item_type": "Monitor",
+      "description": "LG 20MK400H-BBAWZVMVZ",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 9,
+      "code": "0109",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse QWERTY, marca SATE, Modelo AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 10,
+      "code": "0110",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 11,
+      "code": "0111",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 12,
+      "code": "0112",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19,5\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo FLATRON 20M37AA-B",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 13,
+      "code": "0113",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 14,
+      "code": "0114",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse QWERTY, marca SATE, Modelo AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 15,
+      "code": "0115",
+      "item_type": "CPU",
+      "description": "Processador i3, 4 GB RAM instalada, 55D, 120 GB",
+      "acquisition_date": "2018-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 16,
+      "code": "0116",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 17,
+      "code": "0117",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 18,
+      "code": "0118",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19,5\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo FLATRON 20M37AA-B",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 19,
+      "code": "0119",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse QWERTY, marca Fortrek, Modelo desconhecido",
+      "acquisition_date": "2018-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 20,
+      "code": "0120",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 21,
+      "code": "0121",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 22,
+      "code": "0122",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 23,
+      "code": "0123",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 24,
+      "code": "0124",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse QWERTY, marca SATE, Modelo AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 25,
+      "code": "0125",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 26,
+      "code": "0126",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 27,
+      "code": "0127",
+      "item_type": "Monitor",
+      "description": "Monitor Dell 24\"; Resolução 1920 x 1080 Full HD, 1 entrada HDMI, 1 entrada VGA, Modelo S2340Lc",
+      "acquisition_date": "2018-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 28,
+      "code": "0128",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 29,
+      "code": "0129",
+      "item_type": "Teclado",
+      "description": "Teclado QWERTY, marca desconhecido, modelo desconhecido",
+      "acquisition_date": "2026-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 30,
+      "code": "0130",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 31,
+      "code": "0131",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 32,
+      "code": "0132",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 33,
+      "code": "0133",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 34,
+      "code": "0134",
+      "item_type": "Teclado",
+      "description": "Teclado QWERTY, marca SATE, Modelo AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 35,
+      "code": "0135",
+      "item_type": "CPU",
+      "description": "Sistema operacional de 64 bits, processador baseado em x64; Processador Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz 2.90 GHz; 8,00 GB RAM instalada. Contém 1 fonte, 1 cabo HDMI, 1 cabo VGA e 1 mouse.",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 36,
+      "code": "0136",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 37,
+      "code": "0137",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 38,
+      "code": "0138",
+      "item_type": "Monitor",
+      "description": "Monitor LG 19\", Resolução 1366 x 768 Bivolt, 1 entrada HDMI, 1 entrada VGA, Modelo 19M38H",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 39,
+      "code": "0139",
+      "item_type": "Teclado",
+      "description": "Kit teclado + mouse, marca: SATE AK-910",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 40,
+      "code": "0140",
+      "item_type": "CPU",
+      "description": "Intel® Core™ i5-10500 CPU @ 3.10Hz, 8Gb ram, SSD 240Gb, Nvidia G210",
+      "acquisition_date": "2026-03-26",
+      "status": "Disponível"
+    },
+    {
+      "id": 41,
+      "code": "0141",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2022-08-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 42,
+      "code": "0142",
+      "item_type": "Monitor",
+      "description": "AiTek LED 19\" AMO-1019 AC100-240V ~ 50/60Hz DC12V *** 3A  36W",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 43,
+      "code": "0143",
+      "item_type": "Monitor",
+      "description": "LG 20MK400H-BBAWZVMVZ",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 44,
+      "code": "0144",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse (BR) Bright Slim",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 45,
+      "code": "0145",
+      "item_type": "CPU",
+      "description": "Intel® Core™ i5-10500 CPU @ 3.10Hz, 8Gb ram, SSD 240Gb, Nvidia G210",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 46,
+      "code": "0146",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2026-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 47,
+      "code": "0147",
+      "item_type": "Monitor",
+      "description": "AiTek LED 19\" AMO-1019 AC100-240V ~ 50/60Hz DC12V *** 3A  36W",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 48,
+      "code": "0148",
+      "item_type": "Monitor",
+      "description": "LG 20MK400H-BBAWZVMVZ",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 49,
+      "code": "0149",
+      "item_type": "Teclado",
+      "description": "Kit Teclado + Mouse (BR) Bright Slim",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 50,
+      "code": "0150",
+      "item_type": "CPU",
+      "description": "Intel® Core™ i5-10500 CPU @ 3.10Hz, 8Gb ram, SSD 240Gb, Nvidia G210",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 51,
+      "code": "0151",
+      "item_type": "Mesa",
+      "description": "Baia Conjunta",
+      "acquisition_date": "2026-01-01",
+      "status": "Disponível"
+    },
+    {
+      "id": 52,
+      "code": "0152",
+      "item_type": "Monitor",
+      "description": "LG 20mk400h-8-BBAWZVMVZ",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 53,
+      "code": "0153",
+      "item_type": "Monitor",
+      "description": "LG 20MK400H-BBAWZVMVZ",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 54,
+      "code": "0154",
+      "item_type": "Teclado",
+      "description": "Kit teclado + mouse, marca: SATE AK-910",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 55,
+      "code": "0155",
+      "item_type": "CPU",
+      "description": "Intel® Core™ i5-3570 CPU @ 3.40Hz, 4Gb ram, SSD 224Gb",
+      "acquisition_date": "2026-03-27",
+      "status": "Disponível"
+    },
+    {
+      "id": 85,
+      "code": "0036",
+      "item_type": "Acessório",
+      "description": "kit mouse teclado sate",
+      "acquisition_date": "2026-06-24",
+      "status": "Em Uso"
+    }
+  ],
+  "employees": [
+    {
+      "id": 5,
+      "name": "Matheus Nakati ",
+      "desk_number": "0136",
+      "location": "Sede Principal",
+      "possession_date": "2026-06-24"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 5,
+      "asset_id": 85,
+      "employee_id": 5,
+      "assignment_date": "2026-06-24"
+    }
+  ]
+}

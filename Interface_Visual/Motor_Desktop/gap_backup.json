@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "id": 1,
+      "code": "00000",
+      "item_type": "Monitor",
+      "description": "teste",
+      "acquisition_date": "2026-06-24",
+      "status": "Em Uso"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jean",
+      "desk_number": "041",
+      "location": "Sede Principal",
+      "possession_date": "2026-06-25"
+    },
+    {
+      "id": 2,
+      "name": "Lucas Pereira",
+      "desk_number": "042",
+      "location": "Sede Principal",
+      "possession_date": "2026-06-25"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "asset_id": 1,
+      "employee_id": 1,
+      "assignment_date": "2026-06-24"
+    }
+  ]
+}
