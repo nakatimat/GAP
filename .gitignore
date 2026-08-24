@@ -1,0 +1,9 @@
+# Node
+node_modules/
+
+# Rust / Tauri
+target/
+
+# OS
+.DS_Store
+Thumbs.db
